@@ -1,4 +1,4 @@
-# Criando um chat com ReactJS
+# Criando um Realtime Chat com ReactJS
 
 ## Chat baseado no Microsoft-Teams
 
