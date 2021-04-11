@@ -32,7 +32,7 @@ section {
 section .color {
   position: absolute;
   filter: blur(150px);
-  /* animation: backgroundAnimation 10s ease-in-out infinite; */
+  animation: backgroundAnimation 10s ease-in-out infinite;
 }
 
 @keyframes backgroundAnimation {
