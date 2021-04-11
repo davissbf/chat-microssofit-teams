@@ -35,36 +35,6 @@ const Modal = () => {
   };
 
   return (
-    // <div className="wrapper">
-    //   <div className="form">
-    //     <h1 className="title">Chat em tempo real</h1>
-    //     <form onSubmit={handleSubmit}>
-    //       <input
-    //         type="text"
-    //         value={username}
-    //         onChange={(e) => setUsername(e.target.value)}
-    //         className="input"
-    //         placeholder="Username"
-    //         required
-    //       />
-    //       <input
-    //         type="password"
-    //         value={password}
-    //         onChange={(e) => setPassword(e.target.value)}
-    //         className="input"
-    //         placeholder="Password"
-    //         required
-    //       />
-    //       <div align="center">
-    //         <button type="submit" className="button">
-    //           <span>Start chatting</span>
-    //         </button>
-    //       </div>
-    //     </form>
-    //     <h1>{error}</h1>
-    //   </div>
-    // </div>
-
     <section>
       <div className="color"></div>
       <div className="color"></div>
@@ -75,7 +45,7 @@ const Modal = () => {
         <div className="square"></div>
         <div className="square"></div>
         <div className="square"></div>
-        <din className="container">
+        <div className="container">
           <div className="form">
             <h1>Chat Real Time</h1>
             <form onSubmit={handleSubmit}>
@@ -103,7 +73,7 @@ const Modal = () => {
             </form>
             <h2>{error}</h2>
           </div>
-        </din>
+        </div>
       </div>
     </section>
   );
