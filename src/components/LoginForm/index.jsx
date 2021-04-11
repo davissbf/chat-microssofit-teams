@@ -30,7 +30,7 @@ const Modal = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('Oops, credenciais incorredas.');
+      setError('Oops, credenciais incorretas.');
     }
   };
 
